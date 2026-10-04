@@ -25,7 +25,7 @@ A secure, authorization-first Laravel dashboard for deploying one configured [La
 - A cache driver that supports atomic locks in environments with more than one application process
 - A Laravel Forge API token with only the permissions required to read the configured resources and create deployments
 
-> **Laravel 10 compatibility:** the package retains Laravel 10 compatibility as requested, but Laravel 10 is outside upstream security support and Composer may block installing it when known advisories apply. Prefer a currently supported Laravel release for production. See Laravel's [support policy](https://laravel.com/docs/13.x/releases#support-policy).
+> **Legacy compatibility:** the package retains Laravel 10 and 11 compatibility as requested, but those releases are outside upstream security support and Composer may block installing them when known advisories apply. Prefer a currently supported Laravel release for production. See Laravel's [support policy](https://laravel.com/docs/13.x/releases#support-policy).
 
 ## Installation
 
