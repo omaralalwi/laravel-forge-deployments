@@ -1,0 +1,68 @@
+{
+    "name": "omaralalwi/laravel-forge-deployments",
+    "description": "A secure, authorization-first Laravel dashboard for deploying one configured Laravel Forge site.",
+    "keywords": [
+        "laravel",
+        "forge",
+        "deployment",
+        "dashboard"
+    ],
+    "homepage": "https://github.com/omaralalwi/laravel-forge-deployments",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "omar alalwi",
+            "email": "omaralwi2010@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/cache": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/config": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/console": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/contracts": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/database": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/http": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/routing": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/translation": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/view": "^10.0|^11.0|^12.0|^13.0",
+        "laravel/forge-sdk": "^4.1"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.24",
+        "orchestra/testbench": "^8.0|^9.0|^10.0|^11.0",
+        "phpunit/phpunit": "^10.5|^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omaralalwi\\LaravelForgeDeployments\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "scripts": {
+        "format": "pint",
+        "test": "phpunit",
+        "test:coverage": "phpunit --coverage-text"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Omaralalwi\\LaravelForgeDeployments\\LaravelForgeDeploymentsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
