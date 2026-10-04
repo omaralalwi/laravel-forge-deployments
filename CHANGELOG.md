@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-10-05
+
 ### Added
 
 - Authorization-first Forge deployment dashboard for one fixed target.
@@ -15,3 +17,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Forge target discovery and read-only configuration check commands.
 
 [Unreleased]: https://github.com/omaralalwi/laravel-forge-deployments/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/omaralalwi/laravel-forge-deployments/releases/tag/v1.0.0
