@@ -1,6 +1,7 @@
 {
     "name": "omaralalwi/laravel-forge-deployments",
     "description": "A secure, authorization-first Laravel dashboard for deploying one configured Laravel Forge site.",
+    "type": "library",
     "keywords": [
         "laravel",
         "forge",
@@ -8,6 +9,10 @@
         "dashboard"
     ],
     "homepage": "https://github.com/omaralalwi/laravel-forge-deployments",
+    "support": {
+        "issues": "https://github.com/omaralalwi/laravel-forge-deployments/issues",
+        "source": "https://github.com/omaralalwi/laravel-forge-deployments"
+    },
     "license": "MIT",
     "authors": [
         {
@@ -17,6 +22,7 @@
     ],
     "require": {
         "php": "^8.2",
+        "illuminate/auth": "^10.0|^11.0|^12.0|^13.0",
         "illuminate/cache": "^10.0|^11.0|^12.0|^13.0",
         "illuminate/config": "^10.0|^11.0|^12.0|^13.0",
         "illuminate/console": "^10.0|^11.0|^12.0|^13.0",
